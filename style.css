@@ -159,7 +159,7 @@ header {
 }
 
 .about p {
-  color: #332141;
+  color: #000;
   font-weight: 500;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
@@ -167,7 +167,7 @@ header {
 
 .about h3 {
   font-size: 3.1rem;
-  color: #142455;
+  color: #222;
   margin: 0px 0;
   font-family: 'Prompt', sans-serif;
 }
