@@ -521,10 +521,11 @@ footer {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .enso1 img{
     width: 120px;
     height: 120px;
+    margin-right: 20px;
   }
 
   .lunes img {
@@ -555,9 +556,17 @@ footer {
     display: none;
   }
 
+  .mq {
+    display: none;
+  }
+
+  .lunes h3 {
+    display: none;
+  }
+
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   header {
     padding: 0 30px;
     height: 100px;
@@ -567,6 +576,7 @@ footer {
 
   .enso1 {
     width: 30px;
+    margin-right: 20px;
   }
 
   .nav_bar {
@@ -724,11 +734,12 @@ footer {
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   /* Header */
 
   .enso1 {
-    width: 40px;
+  margin-right: 20px;
+
   }
 
   .cut_header {
