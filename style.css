@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+
 
 * {
   margin: 0;
@@ -13,6 +17,19 @@ body {
   background-color: #fefefe;
 }
 
+.nav_bar a .flag {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  margin-top: 18px;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  border-radius: 50%;
+  transform: translateX(-30px);
+}
+
+
 /* Header */
 
 header {
@@ -22,7 +39,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
 }
 
 .cut_header {
@@ -36,10 +53,10 @@ header {
 .nav_bar ul li a {
   display: block;
   color: #000;
-  font-size: 30px;
-  padding: 20px 35px;
+  font-size: 20px;
+  padding: 20px 30px;
   margin: 0 5px;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Cardo", sans-serif;
 }
 
 .nav_bar ul li a:hover {
@@ -51,8 +68,8 @@ header {
 }
 
 .enso1 img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 /* Home */
@@ -76,7 +93,6 @@ header {
 }
 
 .lunes img {
-  display: inline-block;
   width: 100%;
   height: 100%;
   justify-content: space-between;
@@ -85,42 +101,54 @@ header {
   border-radius: 5px;
 }
 
-.main_socks h2 {
-  display: inline-block;
-  margin: 10px 30px;
-  font-size: 50px;
-  color: #222;
-  font-family: 'Prompt', sans-serif;
-}
-
 .barcode {
+  width: 100%;
   margin: 30px 60px;
   display: inline-block;
   width: 100%;
   text-align: left;
 }
 
+/* .main_socks img {
+  margin-top: -160px;
+}
+
+.barcode {
+  margin-top: -120px;
+} */
+
+/* .barcode .ho {
+  font-size: 45px;
+  font-family: 'Newsreader', sans-serif;
+} */
+
 .barcode p {
   color: #000;
   font-weight: 500;
-  font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
 .barcode h3 {
-  font-size: 3.1rem;
   color: #222;
-  margin: 30px 0;
-  font-family: 'Prompt', sans-serif;
+  margin: 20px 0;
+  font-family: "Cardo", sans-serif;
 }
-
 
 .ho {
   color: #222;
-  font-size: 3.1rem;
-  margin-bottom: 30px;
-  font-family: 'Prompt', sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-family: "Cardo", sans-serif;
 }
+
+.ho2 {
+  color: #222;
+  font-size: 40px;
+  font-family: "Cardo", sans-serif;
+  margin-bottom: 15px;
+}
+
 
 /* About */
 /* Main */
@@ -130,7 +158,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .martes {
@@ -143,7 +171,7 @@ header {
 
 .martes img {
   width: 80%;
-  height: 700px;
+  height: 600px;
   justify-content: space-between;
   align-items: center;
   margin-left: 50px;
@@ -151,27 +179,26 @@ header {
 }
 
 .about {
-  margin: 30px 60px;
+  margin: 10px 60px;
   display: inline-block;
   width: 100%;
   text-align: left;
   justify-content: space-between;
 }
 
-.about p {
+.martes .about p {
   color: #000;
   font-weight: 500;
-  font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
-.about h3 {
-  font-size: 3.1rem;
+.martes .about h3 {
+  font-size: 45px;
   color: #222;
-  margin: 0px 0;
-  font-family: 'Prompt', sans-serif;
+  margin: 15px 0;
+  font-family: "Cardo", sans-serif;
 }
-
 
 .main_about1 {
   margin-top: 150px;
@@ -185,7 +212,7 @@ header {
 /* Contact */
 
 textarea {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -227,18 +254,17 @@ form {
 
 .title {
   color: #fff;
-  font-weight: 500;
-  font-size: 3rem;
+  font-weight: 600;
+  font-size: 2.6rem;
   line-height: 1;
   margin-bottom: 2rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Cardo", sans-serif;
 }
 
 .input-container {
   position: relative;
   margin: 1.3rem 0;
 }
-
 
 .input {
   width: 100%;
@@ -360,7 +386,8 @@ textarea.input {
   color: #333;
   margin: 1.5rem 0 5rem 0;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
+  font-family: 'Cardo', sans-serif;
 }
 
 .information {
@@ -372,7 +399,7 @@ textarea.input {
 
 .information p {
   font-size: 25px;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 
 .information a {
@@ -383,17 +410,245 @@ textarea.input {
   color: #1283d2;
 }
 
-
 .icon {
   width: 28px;
   margin-right: 1rem;
 }
 
+/* Products */
+
+.video-product {
+  width: 100%;
+  height: 100%;
+  margin: 100px 0;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-clip-path: polygon(1% 1%, 98% 1%, 98% 98%, 1% 98%);
+  clip-path: polygon(1% 1%, 98% 1%, 98% 98%, 1% 98%);
+}
+
+.video-item {
+  width: 55%;
+  border-radius: 10px;
+}
+
+.main-product {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 50px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-text {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.product-text h3 {
+  font-size: 25px;
+  font-family: "Prompt", sans-serif;
+  margin: 10px 0;
+  font-weight: 900;
+  color: #1283d2;
+}
+
+.product-text p {
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.bbt1 {
+  width: 50%;
+  height: 1px;
+  border: 1px solid #142455;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+.info-product {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-product p {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 25px;
+  padding: 0 100px;
+  font-family: "Oswald", sans-serif;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background-color: #fff;
+}
+
+.card {
+  width: 100%;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 14px;
+}
+
+.image-content {
+  row-gap: 5px;
+}
+
+.slide-container {
+  max-width: 1800px;
+  width: 100%;
+  padding: 40px 0;
+  background: #fafafa;
+}
+
+.slide-content {
+  padding: 45px 20px;
+  margin: 0 20px;
+  background: #fefefe;
+  overflow: hidden;
+}
+
+.card-image {
+  position: relative;
+  width: 60%;
+  height: 70%;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  color: #142455;
+}
+
+.btnp {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 30px;
+  background-color: #666;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 14px;
+  transition: all 0.4s ease;
+}
+
+.btnp:hover {
+  background-color: #1283d2;
+  color: #333;
+}
+
+.swiper-navBtn {
+  color: #1283d2;
+  transition: color 0.2s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #444;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 40px;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+/* Product Single */
+
+.barcode .sc {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 60px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0;
+}
+
+.main-text p {
+  font-size: 35px;
+  color: #000;
+}
+
+.main-text a {
+  color: #000;
+}
+
+.main-text a:hover {
+  color: #1283d2;
+}
+
+.bbt3 {
+  transform: translateX(100%);
+  width: 50%;
+  height: 1px;
+  border: 1px solid #142455;
+  margin: 20px 0;
+  border-radius: 40px;
+}
 
 /* Footer */
 
 footer {
-  position:absolute ;
+  position: absolute;
   left: 0;
   right: 0;
   margin-top: 100px;
@@ -406,11 +661,14 @@ footer {
 }
 
 .footer-content {
+  width: 50%;
+  transform: translateX(50%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background: #EFEFEF;
 }
 
 .footer-content button {
@@ -424,24 +682,13 @@ footer {
   font-size: 20px;
   border: 1px solid #142455;
   font-size: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .footer-content button:hover {
   background-color: #142455;
   color: #fafafa;
 }
-
-
-
-/* .footer-content h3 {
-  font-size: 2.3rem;
-  font-weight: 900;
-  margin-bottom: 10px;
-  line-height: 3rem;
-  color: #111;
-  font-family: "Oswald", sans-serif;
-} */
 
 .footer-content p {
   max-width: 500px;
@@ -471,7 +718,7 @@ footer {
 
 .socials li a {
   font-size: 2rem;
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
 
 .socials a:hover i {
@@ -500,11 +747,116 @@ footer {
   color: #000;
 }
 
+/* Persian Site */
+.nav_bar .persian-head  a {
+  font-size: 40px;
+  font-family: Amin;
+  font-weight: 500;
+}
+
+.persian-box {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 80px 0;
+}
+
+.img-box-persian {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.img-box-persian img {
+  width: 45%;
+  height: 20%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.text-box-persian {
+  margin: 0 50px;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.text-box-persian h1 {
+  font-size: 100px;
+  font-family: Amin;
+  font-weight: 500;
+}
+
+.text-box-persian p {
+  color: #000;
+  font-weight: 500;
+  font-size: 35px;
+  font-family: Amin;
+}
+
+.persian-box-2 {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.persian-box-2 h2 {
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Amin;
+}
+
+.persian-box-2 button {
+  width: 10%;
+  font-size: 20px;
+  font-family: Peykan;
+  padding: 10px 20px;
+  border: 1px solid #142455;
+  background: #fff;
+  cursor: pointer;
+  color: #142455;
+  margin-bottom: 50px;
+}
+
+.persian-box-2 button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.bbt3 {
+  width: 50%;
+  height: 1px;
+  border: 1px solid #142455;
+  margin: 50px 0;
+  border-radius: 40px;
+}
+
+@font-face {
+  font-family: Amin;
+  src: url(./IranNastaliq/IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: Peykan;
+  src: url(./amin/amin\ font.jpg);
+}
+
+
 
 /* Media Query */
 @media (max-width: 1800px) {
   header {
-    padding: 0 50px;
+    padding: 0 30px;
     height: 150px;
     padding: 0 100px;
   }
@@ -512,17 +864,49 @@ footer {
   .enso1 {
     width: 120px;
     height: 120px;
-    
+    margin: 0;
   }
 
   .nav_bar ul li a {
-    font-size: 30px;
-    font-family: 'Prompt', sans-serif;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-family: "Cardo", sans-serif;
+    font-weight: 500;
+  }
+
+
+  .barcode h3 {
+    font-size: 40px;
+    font-family: 'Cardo', sans-serif;
+    font-weight: 600;
+  }
+
+  .barcode p {
+    font-size: 20px;
+  }
+
+  .main_about h3 {
+    font-size: 40px;
+  }
+
+  .main_about p {
+    font-size: 25px;
+  }
+
+  .retailer {
+    font-size: 45px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-family: 'Cardo', sans-serif;
   }
 }
 
 @media (max-width: 1280px) {
-  .enso1 img{
+  .enso1 img {
     width: 120px;
     height: 120px;
     margin-right: 20px;
@@ -533,12 +917,10 @@ footer {
   }
 
   .martes img {
-    width: 55%;
+    width: 400px;
+    height: 400px;
   }
 
-  .ho {
-    font-size: 30px;
-  }
 
   .barcode p {
     font-size: 24px;
@@ -564,19 +946,16 @@ footer {
     display: none;
   }
 
+  .product-text p {
+    width: 100%;
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1050px) {
   header {
-    padding: 0 30px;
-    height: 100px;
     padding: 0 60px;
-  }
-  
-
-  .enso1 {
-    width: 30px;
-    margin-right: 20px;
+    height: 90px;
   }
 
   .nav_bar {
@@ -586,9 +965,9 @@ footer {
   .nav_bar ul li a {
     width: 100%;
     font-size: 15px;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Prompt", sans-serif;
   }
-  
+
   .mq {
     display: none;
   }
@@ -596,13 +975,24 @@ footer {
   .barcode h3 {
     display: none;
   }
+
+  .info-product p {
+    display: none;
+  }
+
+  .barcode .sc {
+    display: none;
+  }
+
+  .nav_bar .persian-head  a {
+    font-size: 7px;
+  }
 }
 
 @media (max-width: 850px) {
-  .enso1 img{
-    width: 120px;
-    height: 120px;
-    position: fixed;
+  .enso1 img {
+    width: 90px;
+    height: 90px;
   }
 
   .cut_header {
@@ -628,7 +1018,7 @@ footer {
     background: transparent;
     transition: 0.2s;
     overflow: hidden;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Prompt", sans-serif;
   }
 
   .nav_bar.active {
@@ -636,6 +1026,8 @@ footer {
     height: 250px;
     background: transparent;
     color: #fff;
+    position: relative;
+    padding: 0 70px;
   }
 
   .nav_bar ul {
@@ -645,7 +1037,7 @@ footer {
     text-align: center;
     transition: 0.5s;
     opacity: 0;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
 
   .nav_bar.active ul {
@@ -653,8 +1045,40 @@ footer {
   }
 
   .main_socks {
-    display: inline-block;
-    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #fafafa;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+  }
+
+  .barcode {
+    margin-top: 50px;
+  }
+
+  .barcode h3 {
+    display: none;
+  }
+
+  .mq {
+    display: none;
+  }
+
+  .lunes {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .ho {
@@ -665,19 +1089,14 @@ footer {
     font-size: 20px;
   }
 
-  .mq {
-    display: none;
-  }
-
   .barcode h3 {
     font-size: 25px;
-    display: none;
+    display: flex;
   }
 
   .lunes img {
-    width: 40%;
+    width: 100%;
     height: 100%;
-    display: grid;
     margin-top: 50px;
   }
 
@@ -713,7 +1132,7 @@ footer {
   }
 
   .main_about {
-    margin-top: 200px;
+    margin-top: 230px;
   }
 
   .footer-content button {
@@ -726,20 +1145,31 @@ footer {
     text-align: center;
     font-size: 20px;
     border: 1px solid #142455;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     flex-wrap: wrap;
   }
 
+  .wrapper-product {
+    padding: 20px;
+  }
+
+  .info-product p {
+    display: none;
+  }
+
+  .barcode .sc {
+    display: none;
+  }
+
+  .nav_bar .persian-head  a {
+    font-size: 10px;
+  }
 }
 
-
-
-@media (max-width: 550px) {
+@media (max-width: 820px) {
   /* Header */
-
   .enso1 {
-  margin-right: 20px;
-
+    width: 30px;
   }
 
   .cut_header {
@@ -764,11 +1194,11 @@ footer {
     background: #fff;
     transition: 0.2s;
     overflow: hidden;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Prompt", sans-serif;
   }
 
   .nav_bar.active {
-    width: 50%;
+    width: 100%;
     height: 250px;
     background: transparent;
     color: #fefefe;
@@ -781,11 +1211,11 @@ footer {
     text-align: center;
     transition: 0.5s;
     opacity: 0;
-    font-family: 'Prompt', sans-serif;
+    font-family: "Prompt", sans-serif;
   }
 
   .nav_bar.active ul {
-    opacity: 10;
+    opacity: 1;
   }
 
   .lunes img {
@@ -794,16 +1224,27 @@ footer {
   }
 
   .ho {
-    margin-top: 20px;
-    font-size: 15px;
-    display: none;
+    margin-top: 40px;
+    font-size: 25px;
   }
 
   .barcode {
-   display: none;
+    display: block;
   }
 
-  .mq {
+  .barcode p {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+  }
+
+  .barcode h3 {
+    display: none;
+  }
+
+  .barcode .mq {
     display: none;
   }
 
@@ -811,30 +1252,74 @@ footer {
     display: none;
   }
 
-  
   .main_about1 {
-  margin-top: 0;
-}
+    margin-top: 0;
+  }
 
-.footer-content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
- }
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateX(0);
+  }
 
- .form {
-  width: 100%;
-  height: 100%;
- }
+  .form {
+    width: 100%;
+    height: 100%;
+  }
 
- .contact-info .title {
-  font-size: 40px;
- }
+  .contact-info .title {
+    font-size: 40px;
+  }
 
- .contact-info p {
-  font-size: 20px;
- }
+  .contact-info p {
+    font-size: 20px;
+  }
+
+  .video-product {
+    margin-top: 240px;
+  }
+
+  .main-product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-text p {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+
+  .information a p {
+    font-size: 15px;
+  }
+
+  .information p {
+    font-size: 15px;
+  }
+
+  .card-content h2 {
+    font-size: 25px;
+    display: flex;
+    margin: 0 20px;
+  }
+
+  .card-content button {
+    transform: translateX(-15px);
+  }
 }
