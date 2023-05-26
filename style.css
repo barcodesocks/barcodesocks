@@ -747,6 +747,14 @@ footer {
   color: #000;
 }
 
+.footer-content p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-family: 'Cardo', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
 /* Persian Site */
 .nav_bar .persian-head  a {
   font-size: 40px;
@@ -900,8 +908,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
     font-family: 'Cardo', sans-serif;
+    transform: translateY(-40px);
   }
 }
 
