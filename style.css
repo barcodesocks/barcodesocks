@@ -44,7 +44,7 @@
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: rgb(0, 146, 83);
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
   z-index: 99999;
@@ -59,7 +59,7 @@
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: black;
   -webkit-animation: spin 3s linear infinite;
           animation: spin 3s linear infinite;
 }
@@ -73,7 +73,7 @@
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #979572;
   -webkit-animation: spin 1.5s linear infinite;
           animation: spin 1.5s linear infinite;
 }
@@ -149,7 +149,7 @@ body {
   overflow: hidden;
   outline: none;
   border-radius: 50%;
-  transform: translateX(-30px);
+  transform: translate(30px, 0px);
 }
 
 
@@ -188,13 +188,14 @@ header {
 }
 
 .nav_bar ul li a.active {
-  color: #1283d2;
+  color: #1283d2; 
 }
 
 .enso1 img {
   width: 150px;
   height: 150px;
 }
+
 
 /* Home */
 /* Main */
@@ -251,12 +252,14 @@ header {
   font-weight: 500;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  line-break: anywhere;
 }
 
 .barcode h3 {
   color: #222;
   margin: 20px 0;
   font-family: "Cardo", sans-serif;
+  font-weight: normal;
 }
 
 .ho {
@@ -264,18 +267,80 @@ header {
   font-size: 45px;
   margin-bottom: 10px;
   font-family: "Cardo", sans-serif;
+  font-weight: 400;
 }
 
 .ho2 {
   color: #222;
-  font-size: 40px;
+  font-size: 45px;
   font-family: "Cardo", sans-serif;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 
 /* About */
 /* Main */
+
+.main_about_plus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 50px 0;
+  font-family: 'Cardo' , sans-serif;
+}
+
+.main_about_plus img {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.main_about_plus h1 {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Cardo', sans-serif;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+.main_about_plus p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-break: strict;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  margin: 20px 0;
+}
+
+.borderplus {
+  border: 1px solid #142455;
+  width: 80%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* transform: translateX(130px); */
+}
+
+.bbt4 {
+  width: 80%;
+  border: 1px solid #142455;
+  margin: 50px 0;
+  transform: translateX(255px);
+}
+
 .main_about {
   width: 100%;
   height: 100%;
@@ -294,8 +359,8 @@ header {
 }
 
 .martes img {
-  width: 80%;
-  height: 600px;
+  width: 40%;
+  height: 400px;
   justify-content: space-between;
   align-items: center;
   margin-left: 50px;
@@ -315,17 +380,19 @@ header {
   font-weight: 500;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  line-break: strict;
 }
 
 .martes .about h3 {
-  font-size: 45px;
+  font-size: 40px;
   color: #222;
   margin: 15px 0;
   font-family: "Cardo", sans-serif;
+  font-weight: normal;
 }
 
 .main_about1 {
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .main_about1 img {
@@ -595,6 +662,7 @@ textarea.input {
 .product-text p {
   font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
+  line-break: anywhere;
 }
 
 .bbt1 {
@@ -802,7 +870,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background: #cbecc1;
+  background: #FBFACD;
 }
 
 .footer-content button {
@@ -913,6 +981,12 @@ footer {
 }
 
 /* Persian Site */
+
+.enso2 img {
+  width: 130px;
+  height: 130px;
+}
+
 .nav_bar .persian-head  a {
   font-size: 40px;
   font-family: Amin;
@@ -1061,18 +1135,17 @@ footer {
 @media (max-width: 1800px) {
   header {
     padding: 0 30px;
-    height: 150px;
-    padding: 0 100px;
+    height: 200px;
   }
 
   .enso1 {
     width: 120px;
     height: 120px;
-    margin: 0;
+    transform: translateX(-40px);
   }
 
   .nav_bar ul li a {
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     font-size: 20px;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -1082,7 +1155,7 @@ footer {
   .barcode h3 {
     font-size: 40px;
     font-family: 'Cardo', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .barcode p {
@@ -1120,16 +1193,13 @@ footer {
   }
 
   .martes h3 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .martes p {
-    font-size: 24px;
+    font-size: 10px;
   }
 
-  .act {
-    display: none;
-  }
 
   .mq {
     display: none;
@@ -1147,12 +1217,12 @@ footer {
 
 @media (max-width: 1050px) {
   header {
-    padding: 0 60px;
+    padding: 0 40px;
     height: 90px;
   }
 
   .nav_bar {
-    width: 40%;
+    width: 100%;
   }
 
   .nav_bar ul li a {
@@ -1210,7 +1280,7 @@ footer {
   }
 
   .nav_bar {
-    width: 20px;
+    width: 100%;
     height: 0px;
     position: absolute;
     top: 80px;
@@ -1227,8 +1297,7 @@ footer {
     width: 100%;
     height: 250px;
     background: transparent;
-    color: #fff;
-    position: relative;
+    color: #fff; 
     padding: 0 70px;
   }
 
@@ -1246,7 +1315,7 @@ footer {
     opacity: 1;
   }
 
-  .main_socks {
+  /* .main_socks {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -1257,10 +1326,10 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 200px;
-  }
+  } */
 
   .nav_bar ul .flag {
-    transform: translateX(-60px);
+    transform: translateX(5px);
   }
 
   .barcode {
@@ -1392,6 +1461,53 @@ footer {
     margin-top: 230px;
   }
 
+  .main_about_plus {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .main_about_plus img {
+    width: 90%;
+  }
+
+  .main_about_plus h1 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .main_about_plus p {
+    width: 100%;
+    font-size: 15px;
+    padding: 0 10px;
+    margin-bottom: 0px;
+  }
+
+  .borderplus {
+    margin: 0;
+  }
+
+  .martes {
+    display: none;
+  }
+
+  .bbt4 {
+    display: none;
+  }
+
+  .martes h3 {
+    display: none;
+  }
+
+  .martes img {
+    display: none;
+  }
+
   .footer-content button {
     width: 150px;
     height: 50px;
@@ -1458,9 +1574,9 @@ footer {
   .nav_bar.active {
     width: 100%;
     height: 315px;
-    background: transparent;
+    background: #fff;
     color: #fefefe;
-    padding: 1px 90px;
+    /* padding: 1px 90px; */
   }
 
   .nav_bar ul {
@@ -1506,6 +1622,7 @@ footer {
   .barcode .mq {
     display: none;
   }
+  
 
   .martes img {
     display: none;
@@ -1620,5 +1737,63 @@ footer {
 @media (width: 1024px) {
   .bordercenter {
     transform: translateX(260px);
+  }
+}
+
+@media (width: 667px) {
+  .bordercenter {
+    transform: translateX(165px);
+  }
+
+  .enso1 img {
+    transform: translateX(-50px);
+  }
+}
+
+@media (width: 375px) {
+  .enso1 img {
+    transform: translateX(-30px);
+  }
+}
+
+@media (width: 414px) {
+  .enso1 img {
+    transform: translateX(-30px);
+  }
+}
+
+@media (width: 768px) {
+  .enso1 img {
+    transform: translateX(-50px);
+  }
+}
+
+@media (width: 896px) {
+  .bordercenter {
+    transform: translateX(220px);
+  }
+
+  .persian-head {
+    transform: translateX(300px);
+  }
+
+  .text-box-persian h1 {
+    font-size: 50px;
+  }
+
+  .text-box-persian p {
+    font-size: 25px;
+  }
+}
+
+@media (width: 390px) {
+  .enso1 img {
+    transform: translateX(-20px);
+  }
+}
+
+@media (width: 812px) {
+  .bordercenter {
+    transform: translateX(200px);
   }
 }
