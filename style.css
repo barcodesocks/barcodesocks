@@ -144,7 +144,7 @@ body {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  margin-top: 18px;
+  margin-top: 13px;
   border: none;
   overflow: hidden;
   outline: none;
@@ -177,7 +177,7 @@ header {
   display: block;
   color: #000;
   font-size: 20px;
-  padding: 20px 30px;
+  padding: 12px 30px;
   margin: 0 5px;
   font-family: "Cardo", sans-serif;
   font-weight: 600;
@@ -978,6 +978,20 @@ footer {
   align-items: center;
   font-family: 'Cardo', sans-serif;
   transform: translateY(-30px);
+}
+
+.mt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #222;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Cardo', sans-serif;
+  font-weight: bold;
 }
 
 /* Persian Site */
@@ -1795,5 +1809,11 @@ footer {
 @media (width: 812px) {
   .bordercenter {
     transform: translateX(200px);
+  }
+}
+
+@media (width: 731px) {
+  .bordercenter {
+    transform: translateX(180px);
   }
 }
