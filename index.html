@@ -29,16 +29,19 @@
     <title>Barcodesocks</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href=" https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Remixion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" integrity="sha512-Jp3oCtkKo8j/WRrHq2jrYMtJogclQybtR6+81arCLTO/TvWj3oaF4NkZQs2bTqWJ8An8L2MLKKfvsn3H8vZP1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
     <!-- Preloader -->
 
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-    </div> 
+    </div>  -->
 
     <!-- Header -->
     <header>
@@ -61,7 +64,7 @@
           <li>
             <a href="contact.html">Contact</a>
           </li>
-          <a href="persian.html" class="opacity"><img src="./logo/iran.png" alt="Iran" class="flag" name="Click for persian"></a>
+          <a href="./persian.html">IR</a>
         </ul>
       </nav>
       <a href="index.html" class="enso1"><img src="./logo/Leibel e Sait - Barcod2.jpg"></a>
@@ -73,6 +76,9 @@
         <img src="./images/22.jpg" alt="Bazar">
         <div class="barcode">
             <h1 class="ho">BARCODE</h1>
+            <button id="btnScrollToTop">
+              <i class="material-icons">arrow_upward</i>
+            </button>
             <h1 class="ho2">Socks Manufacturer</h1>
             <h2></h2>
               <p>
@@ -113,6 +119,7 @@
         </div>
       </footer>
      <!-- Script -->
+     <script src="./scrolltop.js"></script>
      <script src="./preloader.js"></script>
      <script src="./bar.js"></script>
   </body>

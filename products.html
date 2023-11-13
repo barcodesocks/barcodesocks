@@ -28,6 +28,7 @@
     <!-- Title -->
     <title>Barcodesocks</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=" https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./style.css" />
     <!-- Swiper css -->
     <link rel="stylesheet" href="./swiper-bundle.min.css">
@@ -56,7 +57,7 @@
             <li>
                 <a href="contact.html">Contact</a>
             </li>
-            <a href="persian.html"><img src="./logo/iran.png" alt="Iran" class="flag" name="Click for persian"></a>
+            <a href="./persian.html">IR</a>
             </ul>
         </nav>
         <a href="index.html" class="enso1"><img src="./logo/Leibel e Sait - Barcod2.jpg" alt=""></a>
@@ -64,7 +65,7 @@
     <!-- Main -->
     <div class="video-product">
     <div class="video">
-        <video id="video" class="video-item" playsinline autoplay loop muted><source src="./Video/D23Tzz5IL8.mkv" type="video/mp4" />
+        <video id="video" class="video-item" playsinline autoplay loop muted><source src="./Video/IMG_9768.MOV" type="video/mp4" />
     </div>
     </div>
 
@@ -73,6 +74,9 @@
     <div class="main-product">
         <div class="product-text">
             <h3>Products</h3>
+            <button id="btnScrollToTop">
+                <i class="material-icons">arrow_upward</i>
+            </button>
             <p>
                 However, in the present day, quality seems to have taken a backseat, with quantity and mass production taking center stage.
             </p>
@@ -101,12 +105,12 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="./images/1.jpg" alt="" class="card-img">
+                            <img src="./images/Normal.JPG" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
-                        <h2 class="name">Single Cylender</h2>
+                        <h2 class="name">Normal</h2>
                         <a href="single.html" target="_blank"><button class="btnp">More</button></a>
                     </div>
                 </div>
@@ -115,7 +119,7 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="./images/2.jpg" alt="" class="card-img">
+                            <img src="./images/Jacard.JPG" alt="" class="card-img">
                         </div>
                     </div>
 
@@ -124,17 +128,33 @@
                         <a href="jacquard.html"><button class="btnp">More</button></a>
                     </div>
                 </div>
+
                 <div class="card swiper-slide">
                     <div class="image-content">
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="./images/3.jpg" alt="" class="card-img">
+                            <img src="./images/Tennis.JPG" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
-                        <h2 class="name">Terry Socks</h2>
+                        <h2 class="name">Tennis</h2>
+                        <a href="jacquard.html"><button class="btnp">More</button></a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/Sport.JPG" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Sport</h2>
                         <a href="terry.html"><button class="btnp">More</button></a>
                     </div>
                 </div>
@@ -143,12 +163,12 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="./images/4.jpg" alt="" class="card-img">
+                            <img src="./images/Ribbed.JPG" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
-                        <h2 class="name">Double Cylender</h2>
+                        <h2 class="name">Ribbed</h2>
                         <a href="double.html"><button class="btnp">More</button></a>
                     </div>
                 </div>
@@ -188,6 +208,7 @@
         </div>
       </footer>
     <!-- Script -->
+    <script src="./scrolltop.js"></script>
     <script src="./swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
     <script src="./bar.js"></script>
